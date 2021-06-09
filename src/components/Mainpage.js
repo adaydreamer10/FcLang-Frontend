@@ -26,7 +26,7 @@ const Mainpage = (props) => {
             // }
 
             const getData = () =>{
-                fetch(props.url + wordNumber)
+                fetch(props.url + 'random')//http://localhost:3000/1
                 .then((response) => {
                     return response.json();
                 })
